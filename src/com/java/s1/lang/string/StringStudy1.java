@@ -3,6 +3,41 @@ package com.java.s1.lang.string;
 import java.util.Scanner;
 
 public class StringStudy1 {
+	public void splitTest() {
+		String name = "미애, 철이, 진섭, 정욱";
+		String [] result = name.split(",");
+		
+		for(int i = 0; i < result.length; i++) {
+			System.out.println(result[i].trim());
+		}
+		
+	}
+	
+	public void valueTest() {
+		int num = 1000;
+		String result = String.valueOf(num);
+		
+		System.out.println(result);
+	}
+	
+	public void caseTest() {
+		String title = "West Side Story";
+		
+		String result = title.toLowerCase();
+		System.out.println(result);
+		
+		result = title.toUpperCase();
+		System.out.println(result);
+	
+	}
+	
+	public void replaceTest() {
+		String title = "West Side Story";
+		String result = title.replace('S', 't');
+		System.out.println(title);
+		System.out.println(result);
+	}
+	
 	
 	public void subStringEx1() {
 		//키보드로부터 업로드할 파일명을 입력

@@ -10,6 +10,10 @@ public class StringMain {
 		//ss.indexOfTest();
 		//ss.lengthTest();
 		//ss.subStringTest();
-		ss.subStringEx1();
+		//ss.subStringEx1();
+		//ss.replaceTest();
+		//ss.caseTest();
+		//ss.valueTest();
+		ss.splitTest();
 	}
 }
