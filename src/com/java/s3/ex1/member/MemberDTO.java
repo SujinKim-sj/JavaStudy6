@@ -1,4 +1,4 @@
-package com.java.s3.ex1;
+package com.java.s3.ex1.member;
 
 public class MemberDTO {
 	//선언
